@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Board server runtime
+*.log
+.board_server.pid
+
+# Runtime project data (tickets, inboxes, team manifests) — local, not versioned
+projects/
+
+# Local session team identity (written by /set-team)
+.current_team
+
+# OS
+.DS_Store
