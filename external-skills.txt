@@ -9,5 +9,12 @@
 #   filename = the slash-command file (e.g. grill-me.md → /grill-me)
 #   url      = raw text URL of the skill file (must resolve with curl)
 # Lines starting with # are comments. To add another external skill, append a line.
+#
+# Pinned to a reviewed upstream commit (not `main`) so a moved or changed file can't silently
+# break or alter installs. To update: review the new upstream files, then bump the SHA.
+#
+# /grill-me is a thin entry point that tells the agent to call the `grilling` skill, so both
+# files must be installed together.
 
-grill-me.md https://raw.githubusercontent.com/mattpocock/skills/main/docs/productivity/grill-me.md
+grilling.md https://raw.githubusercontent.com/mattpocock/skills/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grilling/SKILL.md
+grill-me.md https://raw.githubusercontent.com/mattpocock/skills/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grill-me/SKILL.md
