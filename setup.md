@@ -44,7 +44,7 @@ curl -fsSL "<url>" -o "<commands_dir>/<filename>"
 ```
 If a fetch fails (network, 404), **warn and continue** — don't abort the whole install; the
 built-in commands still work. Report which external skills were installed and their command
-names (the filename without `.md`). Example entry: `grill-me.md` → installs `/grill-me`, a
+names (the filename without `.md`). Example entries: `grilling.md` + `grill-me.md` → install `/grill-me` (a thin entry point that calls the `grilling` skill) — a
 skill that interviews a loose idea until it's a committed plan — handy for the coordinator
 before turning a brief into tickets.
 

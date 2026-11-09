@@ -120,7 +120,7 @@ flowchart LR
 | `/team-send <recipients\|all> <message>` | Send a message (each recipient sees the full to-list) |
 | `/lead` | Coordinator pass: nudge stalled teams, roll up a status summary for the human |
 
-> **External skill — `/grill-me`**: installed by `setup.md` from [`external-skills.txt`](external-skills.txt) (content fetched, not vendored). It interviews a loose idea until it's a committed plan — handy for the coordinator to stress-test a brief *before* turning it into tickets. Add more external skills the same way (one line in the manifest).
+> **External skill — `/grill-me`**: installed by `setup.md` from [`external-skills.txt`](external-skills.txt) (content fetched, not vendored, pinned to a reviewed upstream commit; it pulls in the companion `grilling` skill). It interviews a loose idea until it's a committed plan — handy for the coordinator to stress-test a brief *before* turning it into tickets. Add more external skills the same way (one line in the manifest).
 
 ## 📁 Project layout
 
